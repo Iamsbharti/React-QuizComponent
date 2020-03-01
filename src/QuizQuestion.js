@@ -1,9 +1,13 @@
 import React, { Component } from 'react'
 import QuizQuestionButton from './QuizQuestionButton';
 class QuizQuestion extends Component{
-    handleClick(){
 
+    handleClick(buttonTxt){
+        if(buttonTxt===(this.props.quiz_question.answer)){
+            this.props.showNextQuestionHandler();
+        }
     }
+
     render(){
         return(
             <main>
@@ -15,7 +19,7 @@ class QuizQuestion extends Component{
                         {
                             this.props.quiz_question.answer_options.map(answer_option=> 
                             <QuizQuestionButton 
-                                key={answer_option} 
+                                key={answer_option.id} 
                                 button_text={answer_option} 
                                 clickHandler={this.handleClick.bind(this)} 
                             />)
