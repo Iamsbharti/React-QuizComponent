@@ -6,7 +6,7 @@ class QuizQuestion extends Component{
             <div>
                 <main>
                     <section>
-                        <p>{/**/} </p>
+                        <p>{this.props.quiz_question.instruction_text} </p>
                     </section>
                     <section>
                         <ul>
