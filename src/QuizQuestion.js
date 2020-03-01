@@ -15,7 +15,6 @@ class QuizQuestion extends Component{
             this.setState({incorrectAnswer:true})
         }
     }
-
     render(){
         return(
             <main>
@@ -34,7 +33,6 @@ class QuizQuestion extends Component{
                         }
                     </ul>
                 </section>
-
                     {this.state.incorrectAnswer ? 
                     <p className='error'>Sorry, that's not right</p>:
                     null}
