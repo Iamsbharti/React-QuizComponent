@@ -11,6 +11,24 @@
       "instruction_text": "What's your favorite number?",
       "answer_options": ["1", "2", "3", "4"],
       "answer": "4"
+    },
+    {
+      "id": 3,
+      "instruction_text": "What's chemical name of Sodium?",
+      "answer_options": ["Na", "H", "He", "k"],
+      "answer": "Na"
+    },
+    {
+      "id": 4,
+      "instruction_text": "What the secret of life?",
+      "answer_options": ["111", "42", "309", "512"],
+      "answer": "42"
+    },
+    {
+      "id": 5,
+      "instruction_text": "How Many planets are there in the solar system?",
+      "answer_options": ["5", "8", "9", "7"],
+      "answer": "8"
     }
   ]
 }
