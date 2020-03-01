@@ -10,7 +10,7 @@ class Quiz extends Component{
     }
     
     render(){
-        let isQuizEnd=true;
+        const isQuizEnd=true;
         if(this.state.quiz_position-1===quizData.quiz_questions.length){
             isQuizEnd=true;
         }
